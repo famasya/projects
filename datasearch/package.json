@@ -1,0 +1,44 @@
+{
+  "name": "datasearch",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": "",
+  "files": [
+    "lib"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "data.go.id",
+    "data crawling",
+    "open data"
+  ],
+  "devDependencies": {
+    "nsp": "^2.6.3",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1 && jest",
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.73.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "famasya/datasearch",
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

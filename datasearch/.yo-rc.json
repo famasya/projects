@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Abid Famasya",
+      "authorEmail": "abid.famasya@gmail.com",
+      "authorUrl": "https://famasya.github.io"
+    }
+  }
+}

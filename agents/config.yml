@@ -1,0 +1,11 @@
+common:
+  bro_path: "/Users/famasya/Dev/Nodejs/mg-agents/agents/logs/"
+  host: "localhost"
+  port: 9200
+  token: "2j393jk1k2j32h1hk12nds"
+  host_path: "/"
+
+tls:
+  ca: "/Users/famasya/Dev/Nodejs/mg-agents/agents/tls/ca-crt.pem"
+  crt: "/Users/famasya/Dev/Nodejs/mg-agents/agents/tls/client1-crt.pem"
+  key: "/Users/famasya/Dev/Nodejs/mg-agents/agents/tls/client1-key.pem"
